@@ -7,8 +7,8 @@ This project is focused on writing tests against the feedreader app. All tests c
 It uses the behavior-driven development framework [Jasmine](http://jasmine.github.io/), to test the app's JavaScript code. It is already included on the jasmine folder.
 
 # Unit tests
-###RSS Feeds
-  ####Tests
+### RSS Feeds
+  #### Tests
   1. **Feeds are defined**   This test ensures that the `allFeeds` variable has been defined and that it is not empty.
   2. **Feeds url-property are defined**
   Loops through each feed in the `allFeeds` object and ensures it has a URL defined and that the URL is not empty.
@@ -23,11 +23,11 @@ It uses the behavior-driven development framework [Jasmine](http://jasmine.githu
   2. **Menu changes visibility on click**
    Ensures the menu changes visibility when the menu icon is clicked, ensuring the body element toggles `'menu-hidden'` class on click.
 
-###Initial entries
-  ####Tests
+### Initial entries
+  #### Tests
   1. **Feed contains entries** Ensures when the `loadFeed` function is called and completes its work (asynchronous function), there is at least a single `.entry` element within the `.feed` container.
-###New Feed Selection
-  ####Tests
+### New Feed Selection
+  #### Tests
   1. **New Feed Selection**
   Ensures when a new feed is loaded (on menu-links click events)
  by the `loadFeed` function that the content actually changes.
